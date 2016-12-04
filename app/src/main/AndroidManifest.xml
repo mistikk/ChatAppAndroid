@@ -31,10 +31,6 @@
             android:parentActivityName=".GetStartedActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme1" />
-        <activity android:name=".GroupActivity"
-            android:parentActivityName=".GetStartedActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>

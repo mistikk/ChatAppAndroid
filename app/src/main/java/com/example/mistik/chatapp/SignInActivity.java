@@ -111,7 +111,7 @@ public class SignInActivity extends BaseActivity implements
                             Toast.makeText(SignInActivity.this, R.string.auth_failed,
                                     Toast.LENGTH_SHORT).show();
                         }else{
-                            Intent signIntent = new Intent(SignInActivity.this, GroupActivity.class);
+                            Intent signIntent = new Intent(SignInActivity.this, MainActivity.class);
                             startActivity(signIntent);
                         }
 
